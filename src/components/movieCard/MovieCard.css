@@ -1,0 +1,53 @@
+.movieTitle,
+.movieVote {
+  color: white;
+  text-align: center;
+  margin: 8px 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.movieCard {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 200px;
+  background-color: #1c1c1c; 
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 10px;
+}
+
+.movieCard:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+
+.movieCard img {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+}
+
+button {
+  background-color: #ff3c00;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  margin: 10px auto;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e63600;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}

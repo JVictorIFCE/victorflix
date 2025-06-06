@@ -1,0 +1,13 @@
+.star-rating {
+  display: flex;
+  gap: 4px;
+}
+
+.star {
+  color: #e4e5e9; /* cinza claro */
+  font-size: 20px;
+}
+
+.star.filled {
+  color: #ffc107; /* amarelo */
+}

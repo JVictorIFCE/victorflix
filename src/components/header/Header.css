@@ -1,0 +1,21 @@
+.header-container {
+  background-color: rgb(28, 28, 83);
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* espaço entre logo e botões */
+}
+
+.header-right {
+  font-size: 35px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  gap: 10px; 
+}
