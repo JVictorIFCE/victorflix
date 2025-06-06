@@ -4,10 +4,10 @@
 }
 
 .star {
-  color: #e4e5e9; /* cinza claro */
+  color: #e4e5e9; 
   font-size: 20px;
 }
 
 .star.filled {
-  color: #ffc107; /* amarelo */
+  color: #ffc107; 
 }

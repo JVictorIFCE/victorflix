@@ -9,7 +9,7 @@
 .header-left {
   display: flex;
   align-items: center;
-  gap: 10px; /* espaço entre logo e botões */
+  gap: 10px; 
 }
 
 .header-right {
